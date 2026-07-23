@@ -28,7 +28,7 @@ export default function Insights() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-display text-2xl font-bold">Insights</h1>
+        <h1 className="text-display text-2xl font-bold">Producer Notes</h1>
         <p className="text-sm text-text-secondary mt-1">AI-powered observations about your music journey</p>
       </div>
 

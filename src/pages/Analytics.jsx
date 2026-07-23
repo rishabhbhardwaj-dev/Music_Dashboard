@@ -72,7 +72,7 @@ export default function Analytics() {
     <div className="space-y-6">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <h1 className="text-display text-2xl font-bold">Analytics</h1>
+          <h1 className="text-display text-2xl font-bold">Control Room</h1>
           <p className="text-sm text-text-secondary mt-1">Deep dive into your music performance</p>
         </div>
         <div className="flex bg-bg-card border border-border rounded-lg overflow-hidden">

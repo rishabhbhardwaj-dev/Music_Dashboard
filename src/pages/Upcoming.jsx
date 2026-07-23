@@ -20,7 +20,7 @@ export default function Upcoming() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-display text-2xl font-bold">Upcoming Covers</h1>
+        <h1 className="text-display text-2xl font-bold">Recording Queue</h1>
         <p className="text-sm text-text-secondary mt-1">Your planning board</p>
       </div>
 

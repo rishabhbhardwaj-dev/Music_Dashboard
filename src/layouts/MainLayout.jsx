@@ -5,15 +5,15 @@ import { LayoutDashboard, Music, Users, Clock, BarChart3, Search, ListMusic, Tro
 import { useTheme, useKeyboard } from '../hooks/useStore';
 
 const navItems = [
-  { to: '/', icon: LayoutDashboard, label: 'Dashboard' },
-  { to: '/library', icon: Music, label: 'Library' },
+  { to: '/', icon: LayoutDashboard, label: 'Studio' },
+  { to: '/library', icon: Music, label: 'Song Library' },
   { to: '/artists', icon: Users, label: 'Artists' },
-  { to: '/timeline', icon: Clock, label: 'Timeline' },
-  { to: '/analytics', icon: BarChart3, label: 'Analytics' },
-  { to: '/playlists', icon: ListMusic, label: 'Playlists' },
-  { to: '/achievements', icon: Trophy, label: 'Achievements' },
-  { to: '/upcoming', icon: Calendar, label: 'Upcoming' },
-  { to: '/insights', icon: Lightbulb, label: 'Insights' },
+  { to: '/timeline', icon: Clock, label: 'Musical Journey' },
+  { to: '/analytics', icon: BarChart3, label: 'Control Room' },
+  { to: '/playlists', icon: ListMusic, label: 'Collections' },
+  { to: '/achievements', icon: Trophy, label: 'Wall of Fame' },
+  { to: '/upcoming', icon: Calendar, label: 'Recording Queue' },
+  { to: '/insights', icon: Lightbulb, label: 'Producer Notes' },
   { to: '/search', icon: Search, label: 'Search' },
 ];
 
@@ -55,17 +55,25 @@ export default function MainLayout() {
 
       {/* Sidebar */}
       <aside className={`fixed lg:sticky top-0 left-0 h-screen z-50 flex flex-col transition-transform duration-300 lg:translate-x-0 ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} w-60 bg-bg-elevated border-r border-border`}>
-        <div className="p-5 flex items-center gap-3 border-b border-border">
-          <div className="w-9 h-9 rounded-xl bg-accent flex items-center justify-center">
-            <Music className="w-5 h-5 text-white" />
+        <div className="p-5 border-b border-border">
+          <div className="flex items-center gap-3 mb-3">
+            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-accent to-purple flex items-center justify-center">
+              <Music className="w-5 h-5 text-white" />
+            </div>
+            <div>
+              <h1 className="text-sm font-bold tracking-tight">MelodyVault</h1>
+              <p className="text-[10px] text-text-muted uppercase tracking-wider">Music Portfolio</p>
+            </div>
+            <button className="ml-auto lg:hidden" onClick={() => setSidebarOpen(false)}>
+              <X className="w-5 h-5 text-text-secondary" />
+            </button>
           </div>
-          <div>
-            <h1 className="text-sm font-semibold tracking-tight">Rishabh Bhardwaj</h1>
-            <p className="text-[11px] text-text-muted">Music Dashboard</p>
+          <div className="flex items-center gap-2 px-2 py-1.5 rounded-lg bg-bg-hover/50">
+            <div className="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center">
+              <span className="text-xs">🎤</span>
+            </div>
+            <span className="text-xs text-text-secondary">Rishabh Bhardwaj</span>
           </div>
-          <button className="ml-auto lg:hidden" onClick={() => setSidebarOpen(false)}>
-            <X className="w-5 h-5 text-text-secondary" />
-          </button>
         </div>
 
         <nav className="flex-1 p-3 space-y-0.5 overflow-y-auto">
