@@ -13,8 +13,17 @@
 
 *Built with love for music and code.*
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Website-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://your-live-demo-url.com)
- [![Gmail](https://img.shields.io/badge/Gmail-officialrishabhbhardwaj%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:officialrishabhbhardwaj@gmail.com)
+<p align="center">
+  <a href="https://your-live-demo-url.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Website-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+  </a>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;
+
+  <a href="mailto:officialrishabhbhardwaj@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
+</p>
 </div>
 
 ---
