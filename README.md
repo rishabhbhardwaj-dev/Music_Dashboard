@@ -13,7 +13,7 @@
 
 *Built with love for music and code.*
 
-[🌐 Live Demo](#) · [📧 Contact](mailto:officialrishabhbhardwaj@gmail.com) 
+ [![Gmail](https://img.shields.io/badge/Gmail-officialrishabhbhardwaj%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:officialrishabhbhardwaj@gmail.com)
 </div>
 
 ---
