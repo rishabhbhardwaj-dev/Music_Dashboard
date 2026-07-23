@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { TrendingUp, Eye, Heart, MessageCircle, Share2, Bookmark, Music, Calendar, Zap, Award, Users, Disc3, Play, Instagram, Youtube, ExternalLink } from 'lucide-react';
-import { songs } from '../data/songs';
+import { songs, portfolioStats } from '../data/songs';
 import { formatNumber, totalViews, totalLikes, totalComments, totalShares, totalSaves, avgViews, avgEngagement, bestPerforming, uniqueArtists, uploadStreak, formatDate } from '../utils/helpers';
 
 const stats = [
@@ -115,8 +115,8 @@ export default function Dashboard() {
                 <p className="text-xs text-white/40 uppercase tracking-wider">Covers</p>
               </div>
               <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/5">
-                <p className="text-2xl font-bold text-white">{formatNumber(totalViews(songs))}</p>
-                <p className="text-xs text-white/40 uppercase tracking-wider">Views</p>
+                <p className="text-2xl font-bold text-white">{formatNumber(portfolioStats.totalLikes)}</p>
+                <p className="text-xs text-white/40 uppercase tracking-wider">Total Likes</p>
               </div>
               <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/5">
                 <p className="text-2xl font-bold text-white">{uniqueArtists(songs).length}</p>
