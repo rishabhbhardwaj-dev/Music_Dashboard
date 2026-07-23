@@ -124,7 +124,7 @@ export default function Dashboard() {
 
             {/* Social Links */}
             <div className="flex items-center gap-3">
-              <a href="#" className="flex items-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-pink-500 to-purple-500 text-white text-sm font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all">
+              <a href="https://www.instagram.com/rishabhbhardwaj_45" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-pink-500 to-purple-500 text-white text-sm font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all">
                 <Instagram className="w-4 h-4" />
                 Follow on Instagram
               </a>

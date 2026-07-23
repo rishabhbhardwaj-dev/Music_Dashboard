@@ -61,19 +61,19 @@ export default function MainLayout() {
               <Music className="w-5 h-5 text-white" />
             </div>
             <div>
-              <h1 className="text-sm font-bold tracking-tight">MelodyVault</h1>
+              <h1 className="text-sm font-bold tracking-tight">Rishabh Bhardwaj</h1>
               <p className="text-[10px] text-text-muted uppercase tracking-wider">Music Portfolio</p>
             </div>
             <button className="ml-auto lg:hidden" onClick={() => setSidebarOpen(false)}>
               <X className="w-5 h-5 text-text-secondary" />
             </button>
           </div>
-          <div className="flex items-center gap-2 px-2 py-1.5 rounded-lg bg-bg-hover/50">
+          <a href="https://www.instagram.com/rishabhbhardwaj_45" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-2 py-1.5 rounded-lg bg-bg-hover/50 hover:bg-bg-hover transition-colors">
             <div className="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center">
               <span className="text-xs">🎤</span>
             </div>
-            <span className="text-xs text-text-secondary">Rishabh Bhardwaj</span>
-          </div>
+            <span className="text-xs text-text-secondary">@rishabhbhardwaj_45</span>
+          </a>
         </div>
 
         <nav className="flex-1 p-3 space-y-0.5 overflow-y-auto">
