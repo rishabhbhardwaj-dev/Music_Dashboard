@@ -79,9 +79,7 @@ export default function Dashboard() {
               <div className="relative">
                 <div className="w-28 h-28 rounded-full bg-gradient-to-br from-accent via-rose to-purple p-[3px]">
                   <div className="w-full h-full rounded-full bg-bg-elevated flex items-center justify-center overflow-hidden">
-                    <div className="w-full h-full bg-gradient-to-br from-accent/20 to-purple/20 flex items-center justify-center">
-                      <span className="text-5xl">🎤</span>
-                    </div>
+                    <img src="/profile.jpg" alt="Rishabh Bhardwaj" className="w-full h-full object-cover" />
                   </div>
                 </div>
                 {/* Online Indicator */}
