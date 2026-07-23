@@ -233,7 +233,7 @@ Replace `public/profile.jpg` with your photo.
 <div align="center">
 
 ### Studio (Dashboard)
-*Immersive hero with profile photo, stats, and featured cover*
+*<img width="2858" height="1530" alt="image" src="https://github.com/user-attachments/assets/14ad4cb4-8c75-4a75-90cb-3fb7e36ba864" />*
 
 ### Control Room (Analytics)
 *Interactive charts for views, likes, genres, and growth*
