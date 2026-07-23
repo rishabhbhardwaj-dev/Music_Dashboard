@@ -59,18 +59,24 @@ export default function Dashboard() {
         transition={{ duration: 0.6 }}
         className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#1a0a0a] via-[#0d0d1a] to-[#0a0a1a] border border-white/5 min-h-[400px]"
       >
+        {/* Background Photo */}
+        <div className="absolute inset-0 z-0">
+          <img src="/profile.jpg" alt="" className="w-full h-full object-cover opacity-15 blur-[2px]" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#1a0a0a]/95 via-[#0d0d1a]/80 to-[#0a0a1a]/60" />
+        </div>
+        
         {/* Background Effects */}
-        <div className="absolute inset-0 bg-gradient-to-r from-accent/5 via-transparent to-purple/5" />
-        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-accent/10 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2" />
-        <div className="absolute bottom-0 left-0 w-[300px] h-[300px] bg-purple/10 rounded-full blur-[80px] translate-y-1/2 -translate-x-1/2" />
+        <div className="absolute inset-0 z-[1] bg-gradient-to-r from-accent/5 via-transparent to-purple/5" />
+        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-accent/10 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2 z-[1]" />
+        <div className="absolute bottom-0 left-0 w-[300px] h-[300px] bg-purple/10 rounded-full blur-[80px] translate-y-1/2 -translate-x-1/2 z-[1]" />
         
         {/* Grid Pattern Overlay */}
-        <div className="absolute inset-0 opacity-5" style={{
+        <div className="absolute inset-0 z-[1] opacity-5" style={{
           backgroundImage: 'linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)',
           backgroundSize: '50px 50px'
         }} />
 
-        <div className="relative p-8 md:p-12 flex flex-col lg:flex-row items-start gap-8">
+        <div className="relative z-[2] p-8 md:p-12 flex flex-col lg:flex-row items-start gap-8">
           {/* Left Content */}
           <div className="flex-1">
             {/* Profile Section */}
