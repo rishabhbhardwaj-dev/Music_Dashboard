@@ -13,7 +13,7 @@
 
 *Built with love for music and code.*
 
-[🌐 Live Demo](#) · [📧 Contact](mailto:rishabhbhardwaj45@gmail.com) · [📸 Instagram](https://www.instagram.com/rishabhbhardwaj_45)
+[🌐 Live Demo](#) · [📧 Contact](mailto:rishabhbhardwaj45@gmail.com) · [![Instagram](https://img.shields.io/badge/Instagram-@rishabhbhardwaj__45-E4405F?style=for-the-badge&logo=instagram&logoColor=white)]
 
 </div>
 
