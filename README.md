@@ -236,13 +236,14 @@ Replace `public/profile.jpg` with your photo.
 *<img width="2858" height="1530" alt="image" src="https://github.com/user-attachments/assets/14ad4cb4-8c75-4a75-90cb-3fb7e36ba864" />*
 
 ### Control Room (Analytics)
-*Interactive charts for views, likes, genres, and growth*
+*<img width="2846" height="1530" alt="image" src="https://github.com/user-attachments/assets/3a422940-5e81-4bd6-bbbf-8d76f5c599cb" />*
 
 ### Song Library
-*Grid/list view with filters, favorites, and bookmarks*
+*<img width="2872" height="1548" alt="image" src="https://github.com/user-attachments/assets/1e1df84e-5457-499c-b518-9fce157ee1ca" />*
 
 ### Wall of Fame (Achievements)
-*Gamified milestones with progress tracking*
+*<img width="2850" height="1538" alt="image" src="https://github.com/user-attachments/assets/3648d837-0ee2-4ab0-a4ea-178bf91ba6d9" />
+*
 
 </div>
 
