@@ -269,7 +269,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Rishabh Bhardwaj** — Singer & Cover Artist
 
-- 📸 [Instagram](https://www.instagram.com/rishabhbhardwaj_45)
+- [![Instagram](https://img.shields.io/badge/Instagram-@rishabhbhardwaj__45-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/rishabhbhardwaj_45)
 - 🎵 Turning emotions into melodies, one cover at a time
 - 💻 Built with passion for music and technology
 
